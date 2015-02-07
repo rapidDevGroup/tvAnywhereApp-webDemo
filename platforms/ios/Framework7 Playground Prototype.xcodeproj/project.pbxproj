@@ -39,10 +39,17 @@
 		7E7966E61810823500FA85AD /* icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DC1810823500FA85AD /* icon-small.png */; };
 		7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DD1810823500FA85AD /* icon-small@2x.png */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
-		839B1A8FD7DE45B691D676E8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02C94C239D6B4C1C91799F39 /* SystemConfiguration.framework */; };
-		029E273088CE49B696F02E8C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C77CEFA20A48EC948E688F /* CoreData.framework */; };
-		8E22C633CFBC4F7891143CF9 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 546A758914FB448AA99B1803 /* libz.dylib */; };
-		E4423D6AB5F0438DA99990B3 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B3A5D5FDA042C483D37342 /* libsqlite3.0.dylib */; };
+		23AB9E280E7341A69F9E54D6 /* UniversalAnalyticsPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FC0E0A34A24F8B901DF580 /* UniversalAnalyticsPlugin.m */; };
+		79203A0C64F4471D8E51F1BA /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5D3DC1032E241DBBD79AF78 /* libGoogleAnalyticsServices.a */; };
+		572FF88053734D93BA5AE56E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FA4FC7AA1974AA0964A9667 /* SystemConfiguration.framework */; };
+		2E67F4DD981E46AF8A04F273 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B340E3F7A6964CE694FC8CD1 /* CoreData.framework */; };
+		F759B5164D0444D2A26DDF2D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DB470B2D01842D6984FEA8C /* libz.dylib */; };
+		2157A27E88E34E8DAD441D0F /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 69AA6CAF71524A54B16A766B /* libsqlite3.0.dylib */; };
+		0AF830D7B1814BB59456999F /* IonicKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC64C2E364C44F2BB14E8D1 /* IonicKeyboard.m */; };
+		C563F248CB314792BB9A7299 /* UIWebViewExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 419B88BAD8864DBDB1629A26 /* UIWebViewExtension.m */; };
+		0CDF9517003B4506B192477A /* CDVInAppBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBEEE7BE096476A96B7F327 /* CDVInAppBrowser.m */; };
+		6420023A1D204518B70337F7 /* CDVSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDF7F47B89148D4B330B3E5 /* CDVSplashScreen.m */; };
+		876E187A67074688A414C094 /* CDVStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5C31A64ABB49C4BEE747DB /* CDVStatusBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,10 +115,33 @@
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "Framework7 Playground Prototype/config.xml"; sourceTree = "<group>"; };
-		02C94C239D6B4C1C91799F39 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "SystemConfiguration.framework"; path = "System/Library/Frameworks/SystemConfiguration.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
-		A5C77CEFA20A48EC948E688F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreData.framework"; path = "System/Library/Frameworks/CoreData.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
-		546A758914FB448AA99B1803 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libz.dylib"; path = "usr/lib/libz.dylib"; sourceTree = SDKROOT; fileEncoding = 4; };
-		F8B3A5D5FDA042C483D37342 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsqlite3.0.dylib"; path = "usr/lib/libsqlite3.0.dylib"; sourceTree = SDKROOT; fileEncoding = 4; };
+		82FC0E0A34A24F8B901DF580 /* UniversalAnalyticsPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UniversalAnalyticsPlugin.m"; path = "com.danielcwilson.plugins.googleanalytics/UniversalAnalyticsPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		C5D3DC1032E241DBBD79AF78 /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libGoogleAnalyticsServices.a"; path = "Framework7 Playground Prototype/Plugins/com.danielcwilson.plugins.googleanalytics/libGoogleAnalyticsServices.a"; sourceTree = "<group>"; fileEncoding = 4; };
+		AAE6C20FA856438E91D05114 /* UniversalAnalyticsPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UniversalAnalyticsPlugin.h"; path = "com.danielcwilson.plugins.googleanalytics/UniversalAnalyticsPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		302C14CB5FCA416885570B54 /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "GAIDictionaryBuilder.h"; path = "com.danielcwilson.plugins.googleanalytics/GAIDictionaryBuilder.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		3A093AC5FAFA417D8AF4D3C6 /* GAIFields.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "GAIFields.h"; path = "com.danielcwilson.plugins.googleanalytics/GAIFields.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		A03F9C4DA130407EBDB32C80 /* GAILogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "GAILogger.h"; path = "com.danielcwilson.plugins.googleanalytics/GAILogger.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		64E46CB65C704AB6AFC7EE9B /* GAITrackedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "GAITrackedViewController.h"; path = "com.danielcwilson.plugins.googleanalytics/GAITrackedViewController.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		ECBDDBC171884909A1ECC8E2 /* GAI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "GAI.h"; path = "com.danielcwilson.plugins.googleanalytics/GAI.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		3804C80C69A24279A58BE59A /* GAITracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "GAITracker.h"; path = "com.danielcwilson.plugins.googleanalytics/GAITracker.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		DD438B5119E643B0A91D3209 /* GAIEcommerceFields.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "GAIEcommerceFields.h"; path = "com.danielcwilson.plugins.googleanalytics/GAIEcommerceFields.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		86CECF8488FC4753A2D18B41 /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "GAIEcommerceProduct.h"; path = "com.danielcwilson.plugins.googleanalytics/GAIEcommerceProduct.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		36F2C9223D29459DB9D57444 /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "GAIEcommerceProductAction.h"; path = "com.danielcwilson.plugins.googleanalytics/GAIEcommerceProductAction.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		7B261396AD0843159A1C7C1C /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "GAIEcommercePromotion.h"; path = "com.danielcwilson.plugins.googleanalytics/GAIEcommercePromotion.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		4FA4FC7AA1974AA0964A9667 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "SystemConfiguration.framework"; path = "System/Library/Frameworks/SystemConfiguration.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		B340E3F7A6964CE694FC8CD1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreData.framework"; path = "System/Library/Frameworks/CoreData.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		2DB470B2D01842D6984FEA8C /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libz.dylib"; path = "usr/lib/libz.dylib"; sourceTree = SDKROOT; fileEncoding = 4; };
+		69AA6CAF71524A54B16A766B /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsqlite3.0.dylib"; path = "usr/lib/libsqlite3.0.dylib"; sourceTree = SDKROOT; fileEncoding = 4; };
+		AEC64C2E364C44F2BB14E8D1 /* IonicKeyboard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "IonicKeyboard.m"; path = "com.ionic.keyboard/IonicKeyboard.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		419B88BAD8864DBDB1629A26 /* UIWebViewExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIWebViewExtension.m"; path = "com.ionic.keyboard/UIWebViewExtension.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		AE1E3B4F2FA44F0F8B16DA13 /* IonicKeyboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "IonicKeyboard.h"; path = "com.ionic.keyboard/IonicKeyboard.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		D41D5A7DD7B745A5AEB5C6E3 /* UIWebViewExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIWebViewExtension.h"; path = "com.ionic.keyboard/UIWebViewExtension.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		EBBEEE7BE096476A96B7F327 /* CDVInAppBrowser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVInAppBrowser.m"; path = "org.apache.cordova.inappbrowser/CDVInAppBrowser.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		9D8266B03BE74ABCA33DD6B2 /* CDVInAppBrowser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVInAppBrowser.h"; path = "org.apache.cordova.inappbrowser/CDVInAppBrowser.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		1DDF7F47B89148D4B330B3E5 /* CDVSplashScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVSplashScreen.m"; path = "org.apache.cordova.splashscreen/CDVSplashScreen.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		A4D8DFB6C809448D838023F4 /* CDVSplashScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVSplashScreen.h"; path = "org.apache.cordova.splashscreen/CDVSplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		7F5C31A64ABB49C4BEE747DB /* CDVStatusBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVStatusBar.m"; path = "org.apache.cordova.statusbar/CDVStatusBar.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		4BF9B9CD4EF848EDA8F4454A /* CDVStatusBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVStatusBar.h"; path = "org.apache.cordova.statusbar/CDVStatusBar.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,10 +153,11 @@
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */,
-				839B1A8FD7DE45B691D676E8 /* SystemConfiguration.framework in Frameworks */,
-				029E273088CE49B696F02E8C /* CoreData.framework in Frameworks */,
-				8E22C633CFBC4F7891143CF9 /* libz.dylib in Frameworks */,
-				E4423D6AB5F0438DA99990B3 /* libsqlite3.0.dylib in Frameworks */,
+				79203A0C64F4471D8E51F1BA /* libGoogleAnalyticsServices.a in Frameworks */,
+				572FF88053734D93BA5AE56E /* SystemConfiguration.framework in Frameworks */,
+				2E67F4DD981E46AF8A04F273 /* CoreData.framework in Frameworks */,
+				F759B5164D0444D2A26DDF2D /* libz.dylib in Frameworks */,
+				2157A27E88E34E8DAD441D0F /* libsqlite3.0.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,10 +230,11 @@
 				5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 				305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */,
-				02C94C239D6B4C1C91799F39 /* SystemConfiguration.framework */,
-				A5C77CEFA20A48EC948E688F /* CoreData.framework */,
-				546A758914FB448AA99B1803 /* libz.dylib */,
-				F8B3A5D5FDA042C483D37342 /* libsqlite3.0.dylib */,
+				C5D3DC1032E241DBBD79AF78 /* libGoogleAnalyticsServices.a */,
+				4FA4FC7AA1974AA0964A9667 /* SystemConfiguration.framework */,
+				B340E3F7A6964CE694FC8CD1 /* CoreData.framework */,
+				2DB470B2D01842D6984FEA8C /* libz.dylib */,
+				69AA6CAF71524A54B16A766B /* libsqlite3.0.dylib */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -218,6 +250,28 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
+				82FC0E0A34A24F8B901DF580 /* UniversalAnalyticsPlugin.m */,
+				AAE6C20FA856438E91D05114 /* UniversalAnalyticsPlugin.h */,
+				302C14CB5FCA416885570B54 /* GAIDictionaryBuilder.h */,
+				3A093AC5FAFA417D8AF4D3C6 /* GAIFields.h */,
+				A03F9C4DA130407EBDB32C80 /* GAILogger.h */,
+				64E46CB65C704AB6AFC7EE9B /* GAITrackedViewController.h */,
+				ECBDDBC171884909A1ECC8E2 /* GAI.h */,
+				3804C80C69A24279A58BE59A /* GAITracker.h */,
+				DD438B5119E643B0A91D3209 /* GAIEcommerceFields.h */,
+				86CECF8488FC4753A2D18B41 /* GAIEcommerceProduct.h */,
+				36F2C9223D29459DB9D57444 /* GAIEcommerceProductAction.h */,
+				7B261396AD0843159A1C7C1C /* GAIEcommercePromotion.h */,
+				AEC64C2E364C44F2BB14E8D1 /* IonicKeyboard.m */,
+				419B88BAD8864DBDB1629A26 /* UIWebViewExtension.m */,
+				AE1E3B4F2FA44F0F8B16DA13 /* IonicKeyboard.h */,
+				D41D5A7DD7B745A5AEB5C6E3 /* UIWebViewExtension.h */,
+				EBBEEE7BE096476A96B7F327 /* CDVInAppBrowser.m */,
+				9D8266B03BE74ABCA33DD6B2 /* CDVInAppBrowser.h */,
+				1DDF7F47B89148D4B330B3E5 /* CDVSplashScreen.m */,
+				A4D8DFB6C809448D838023F4 /* CDVSplashScreen.h */,
+				7F5C31A64ABB49C4BEE747DB /* CDVStatusBar.m */,
+				4BF9B9CD4EF848EDA8F4454A /* CDVStatusBar.h */,
 			);
 			name = Plugins;
 			path = "Framework7 Playground Prototype/Plugins";
@@ -402,6 +456,12 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
+				23AB9E280E7341A69F9E54D6 /* UniversalAnalyticsPlugin.m in Sources */,
+				0AF830D7B1814BB59456999F /* IonicKeyboard.m in Sources */,
+				C563F248CB314792BB9A7299 /* UIWebViewExtension.m in Sources */,
+				0CDF9517003B4506B192477A /* CDVInAppBrowser.m in Sources */,
+				6420023A1D204518B70337F7 /* CDVSplashScreen.m in Sources */,
+				876E187A67074688A414C094 /* CDVStatusBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +504,10 @@
 				);
 				PRODUCT_NAME = "Framework7 Playground Prototype";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Framework7 Playground Prototype/Plugins/com.danielcwilson.plugins.googleanalytics\"",
+				);
 			};
 			name = Debug;
 		};
@@ -473,6 +537,10 @@
 				);
 				PRODUCT_NAME = "Framework7 Playground Prototype";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Framework7 Playground Prototype/Plugins/com.danielcwilson.plugins.googleanalytics\"",
+				);
 			};
 			name = Release;
 		};

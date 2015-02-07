@@ -40,7 +40,7 @@ define('app', ['config', 'handlebars', 'utils/router', 'utils/keyboard'], functi
             cordova.plugins.Keyboard.disableScroll(true);
         }
 
-        //StatusBar.styleDefault();
+        StatusBar.styleDefault();
 
         if(navigator.splashscreen) {
             setTimeout(function() {
