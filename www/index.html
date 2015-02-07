@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>Framework7 Playground Prototype</title>
+    <link rel="stylesheet" href="lib/framework7/dist/css/framework7.css">
+    <link rel="stylesheet" href="lib/framework7/dist/css/framework7.themes.css">
+    <link rel="stylesheet" href="lib/framework7-3d-panels/dist/framework7.3dpanels.css">
+    <link rel="stylesheet" href="libs/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+    <link rel="stylesheet" href="lib/fontawesome/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/index.css">
+  </head>
+  <body class="theme-red layout-dark">
+    <div class="statusbar-overlay"></div>
+    <div class="panel-overlay"></div>
+    <div class="panel panel-left panel-reveal">
+
+      <div class="list-block">
+        <ul>
+          <li>
+            <a href="search.html" class="close-panel no-animation">
+              <div class="item-content">
+                <div class="item-media">
+                  <i class="pe-7s-search" style="width: 30px; height: 30px; text-align: center;"></i>
+                </div>
+                <div class="item-inner">
+                  <div class="item-title">Search TV</div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="movies.html" class="close-panel no-animation">
+              <div class="item-content">
+                <div class="item-media">
+                  <i class="pe-7s-film" style="width: 30px; height: 30px; text-align: center;"></i>
+                </div>
+                <div class="item-inner">
+                  <div class="item-title">Recommend Movies</div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="tv.html" class="close-panel no-animation">
+              <div class="item-content">
+                <div class="item-media">
+                  <i class="pe-7s-monitor" style="width: 30px; height: 30px; text-align: center;"></i>
+                </div>
+                <div class="item-inner">
+                  <div class="item-title">Recommend TV Shows</div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="live.html" class="close-panel no-animation">
+              <div class="item-content">
+                <div class="item-media">
+                  <i class="pe-7s-play" style="width: 30px; height: 30px; text-align: center;"></i>
+                </div>
+                <div class="item-inner">
+                  <div class="item-title">Watch Live TV</div>
+                </div>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="views">
+      <div class="view view-main">
+        <div class="navbar"></div>
+        <div class="pages navbar-through"></div>
+      </div>
+    </div>
+
+    <div class="login-screen">
+      <div class="view">
+        <div class="page" data-page="login">
+          <div class="page-content login-screen-content">
+            <div class="white-box" style="z-index:99;">
+              <div class="login-screen-title">Framework7</div>
+              <form>
+                <div class="list-block">
+                  <ul>
+                    <li class="item-content">
+                      <div class="item-inner">
+                        <div class="item-input">
+                          <input type="text" name="username" placeholder="Your username" style="text-align:center">
+                        </div>
+                      </div>
+                    </li>
+                    <li class="item-content">
+                      <div class="item-inner">
+                        <div class="item-input">
+                          <input type="password" name="password" placeholder="Your password" style="text-align:center">
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="list-block">
+                  <ul>
+                    <li><a href="search.html" class="item-link list-button close-login-screen">Sign In</a></li>
+                  </ul>
+                </div>
+              </form>
+            </div>
+            <div>
+              <br><br>
+              <a href="#" class="close-login-screen white-box" style="top:60%;">Cancel</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="popover popover-about">
+      <div class="popover-angle"></div>
+      <div class="popover-inner">
+        <div class="content-block">
+          <p>About</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac diam ac quam euismod porta vel a nunc. Quisque sodales scelerisque est, at porta justo cursus ac.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Links popover -->
+    <div class="popover genres-links">
+      <div class="popover-angle"></div>
+      <div class="popover-inner">
+        <div class="list-block">
+          <ul>
+            <li><a href="#" class="list-button item-link close-popover genres-select">All</a></li>
+            <li><a href="#" class="list-button item-link close-popover genres-select">Action</a></li>
+            <li><a href="#" class="list-button item-link close-popover genres-select">Adventure</a></li>
+            <li><a href="#" class="list-button item-link close-popover genres-select">Comedy</a></li>
+            <li><a href="#" class="list-button item-link close-popover genres-select">Crime</a></li>
+            <li><a href="#" class="list-button item-link close-popover genres-select">Drama</a></li>
+            <li><a href="#" class="list-button item-link close-popover genres-select">Romance</a></li>
+            <li><a href="#" class="list-button item-link close-popover genres-select">Sci-Fi</a></li>
+            <li><a href="#" class="list-button item-link close-popover genres-select">Thriller</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="popover network-links">
+      <div class="popover-angle"></div>
+      <div class="popover-inner">
+        <div class="list-block">
+          <ul>
+            <li><a href="#" class="list-button item-link close-popover network-select">All</a></li>
+            <li><a href="#" class="list-button item-link close-popover network-select">CBC</a></li>
+            <li><a href="#" class="list-button item-link close-popover network-select">City</a></li>
+            <li><a href="#" class="list-button item-link close-popover network-select">Global TV</a></li>
+            <li><a href="#" class="list-button item-link close-popover network-select">H2</a></li>
+            <li><a href="#" class="list-button item-link close-popover network-select">Spike TV</a></li>
+            <li><a href="#" class="list-button item-link close-popover network-select">TMN</a></li>
+            <li><a href="#" class="list-button item-link close-popover network-select">TLC</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="lib/framework7/dist/js/framework7.js"></script>
+    <script type="text/javascript" src="lib/framework7-3d-panels/dist/framework7.3dpanels.js"></script>
+    <script type="text/javascript" src="lib/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="lib/isotope/dist/isotope.pkgd.js"></script>
+    <script type="text/javascript" src="lib/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script type="text/javascript" src="lib/requirejs/require.js" data-main="js/app"></script>
+  </body>
+</html>

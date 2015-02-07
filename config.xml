@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.marcgodard.framework7.playground" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Framework7 Playground Prototype</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <preference name="DisallowOverscroll" value="true"/>
+    <preference name="BackupWebStorage" value="none"/>
+    <feature name="StatusBar">
+        <param name="ios-package" value="CDVStatusBar" onload="true"/>
+    </feature>
+    <feature name="SplashScreen">
+        <param name="ios-package" value="CDVSplashScreen" />
+    </feature>
+    <feature name="Keyboard">
+        <param name="ios-package" value="IonicKeyboard" onload="true" />
+    </feature>
+    <platform name="ios">
+        <preference name="KeyboardDisplayRequiresUserAction" value="false" />
+        <preference name="SplashScreen" value="splash" />
+        <preference name="AutoHideSplashScreen" value="false" />
+        <preference name="ShowSplashScreenSpinner" value="false" />
+
+        <!-- images are determined by width and height. The following are supported -->
+        <splash src="res/app/assets/iphone/Default.png" width="320" height="480"/>
+        <splash src="res/app/assets/iphone/Default@2x.png" width="640" height="960"/>
+        <splash src="res/app/assets/iphone/Default-Portrait.png" width="768" height="1024"/>
+        <splash src="res/app/assets/iphone/Default-Portrait@2x.png" width="1536" height="2048"/>
+        <splash src="res/app/assets/iphone/Default-568h@2x.png" width="640" height="1136"/>
+        <splash src="res/app/assets/iphone/Default-667h@2x.png" width="750" height="1334"/>
+        <splash src="res/app/assets/iphone/Default-Portrait-736h@3x.png" width="1242" height="2208"/>
+
+        <!-- iOS 8.0 iPhone 6 plus -->
+        <icon src="res/app/assets/iphone/appicon-60@3x.png" width="180" height="180" />
+        <!-- iOS 7.0 -->
+        <!-- iPhone / iPod Touch  -->
+        <icon src="res/app/assets/iphone/appicon-60.png" width="60" height="60" />
+        <icon src="res/app/assets/iphone/appicon-60@2x.png" width="120" height="120" />
+        <!-- iPad -->
+        <icon src="res/app/assets/iphone/appicon-76.png" width="76" height="76" />
+        <icon src="res/app/assets/iphone/appicon-76@2x.png" width="152" height="152" />
+        <!-- iOS 6.1 -->
+        <!-- Spotlight Icon -->
+        <icon src="res/app/assets/iphone/appicon-Small-40.png" width="40" height="40" />
+        <icon src="res/app/assets/iphone/appicon-Small-40@2x.png" width="80" height="80" />
+        <!-- iPhone / iPod Touch -->
+        <icon src="res/app/assets/iphone/appicon.png" width="57" height="57" />
+        <icon src="res/app/assets/iphone/appicon@2x.png" width="114" height="114" />
+        <!-- iPad -->
+        <icon src="res/app/assets/iphone/appicon-72.png" width="72" height="72" />
+        <icon src="res/app/assets/iphone/appicon-72@2x.png" width="144" height="144" />
+        <!-- iPhone Spotlight and Settings Icon -->
+        <icon src="res/app/assets/iphone/appicon-Small.png" width="29" height="29" />
+        <icon src="res/app/assets/iphone/appicon-Small@2x.png" width="58" height="58" />
+        <!-- iPad Spotlight and Settings Icon -->
+        <icon src="res/app/assets/iphone/appicon-Small-50.png" width="50" height="50" />
+        <icon src="res/app/assets/iphone/appicon-Small-50@2x.png" width="100" height="100" />
+    </platform>
+    <platform name="android">
+        <!-- you can use any density that exists in the Android project -->
+        <splash src="res/app/assets/android/images/res-long-land-hdpi/default.png" density="land-hdpi"/>
+        <splash src="res/app/assets/android/images/res-long-land-ldpi/default.png" density="land-ldpi"/>
+        <splash src="res/app/assets/android/images/res-long-land-mdpi/default.png" density="land-mdpi"/>
+        <splash src="res/app/assets/android/images/res-long-land-xhdpi/default.png" density="land-xhdpi"/>
+        <splash src="res/app/assets/android/images/res-long-land-xxhdpi/default.png" density="land-xxhdpi"/>
+
+        <splash src="res/app/assets/android/images/res-long-port-hdpi/default.png" density="port-hdpi"/>
+        <splash src="res/app/assets/android/images/res-long-port-ldpi/default.png" density="port-ldpi"/>
+        <splash src="res/app/assets/android/images/res-long-port-mdpi/default.png" density="port-mdpi"/>
+        <splash src="res/app/assets/android/images/res-long-port-xhdpi/default.png" density="port-xhdpi"/>
+        <splash src="res/app/assets/android/images/res-long-port-xxhdpi/default.png" density="port-xxhdpi"/>
+
+        <icon src="res/platform/android/res/drawable-ldpi/appicon.png" density="ldpi" />
+        <icon src="res/platform/android/res/drawable-mdpi/appicon.png" density="mdpi" />
+        <icon src="res/platform/android/res/drawable-hdpi/appicon.png" density="hdpi" />
+        <icon src="res/platform/android/res/drawable-xhdpi/appicon.png" density="xhdpi" />
+        <icon src="res/platform/android/res/drawable-xxhdpi/appicon.png" density="xxhdpi" />
+        <icon src="res/platform/android/res/drawable-xxxhdpi/appicon.png" density="xxxhdpi" />
+    </platform>
+</widget>
