@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A6B32DDA-A5EC-4603-99DE-996A5AE039BA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Framework7 Playground Prototype</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>570B1C16D784E6DD9BF031160A90A7FE04C5E47A</key>
+		<string>https://github.com/MarcGodard/framework7-mvc-demo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>platforms/ios/Framework7 Playground Prototype.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>570B1C16D784E6DD9BF031160A90A7FE04C5E47A</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/MarcGodard/framework7-mvc-demo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>570B1C16D784E6DD9BF031160A90A7FE04C5E47A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>570B1C16D784E6DD9BF031160A90A7FE04C5E47A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>framework7-mvc-demo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

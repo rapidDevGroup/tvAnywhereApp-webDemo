@@ -1,0 +1,55 @@
+{
+  "name": "Framework7 3D Panels",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nolimits4web/Framework7-3D-Panels.git"
+  },
+  "description": "Framework7 plugin to add 3d effect for side panels",
+  "version": "0.9.5",
+  "author": "Vladimir Kharlampidi",
+  "homepage": "http://www.idangero.us/framework7/",
+  "keywords": [
+    "mobile",
+    "framework",
+    "ios 7",
+    "ios7",
+    "ios8",
+    "ios 8",
+    "iphone",
+    "ipad",
+    "apple",
+    "phonegap",
+    "native",
+    "touch",
+    "appstore",
+    "app",
+    "f7"
+  ],
+  "scripts": [
+    "dist/framework7.3dpanels.js"
+  ],
+  "main": [
+    "dist/framework7.3dpanels.js",
+    "dist/framework7.3dpanels.css"
+  ],
+  "license": [
+    "MIT"
+  ],
+  "dependencies": {},
+  "ignore": [
+    ".*",
+    "build",
+    "Gruntfile.js",
+    "node_modules",
+    "package.json"
+  ],
+  "_release": "0.9.5",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.9.5",
+    "commit": "6b3a451176a08cb7ec363186d2b6ab971ba7e774"
+  },
+  "_source": "git://github.com/nolimits4web/Framework7-3D-Panels.git",
+  "_target": "~0.9.5",
+  "_originalSource": "framework7-3d-panels"
+}
