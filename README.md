@@ -1,4 +1,4 @@
-# framework7-mvc-demo
+# tvAnywhereApp-webDemo
 A demo and playground for framework7
 
 Add the following cordova plugins:
