@@ -16,7 +16,7 @@ require.config({
     }
 });
 
-define('app', ['config', 'handlebars', 'utils/router', 'utils/keyboard'], function(config, handlebars, router, keyboard) {
+define('app', ['config', 'handlebars', 'utils/router', 'utils/keyboard'], function(config, handlebars, router) {
 
     router.init();
 
@@ -27,28 +27,10 @@ define('app', ['config', 'handlebars', 'utils/router', 'utils/keyboard'], functi
     var mainView = f7.addView('.view-main', {
       dynamicNavbar: true
     });
-    f7.allowPanelOpen = false;
-    f7.mainView.hideNavbar();
 
-    mainView.router.load({url: 'features.html'});
+    mainView.router.load({url: 'search.html'});
 
-    document.addEventListener('deviceready', function() {
-        keyboard.init();
-
-        if (window.cordova && window.cordova.plugins.Keyboard) {
-            cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
-            cordova.plugins.Keyboard.disableScroll(true);
-        }
-
-        StatusBar.styleDefault();
-
-        if(navigator.splashscreen) {
-            setTimeout(function() {
-                navigator.splashscreen.hide();
-            }, config.splashScreen.delay);
-        }
-
-    }, false);
+    $('html').addClass('with-statusbar-overlay');
 
     return {
         f7: f7,

@@ -10,6 +10,28 @@ body {
 }
 .statusbar-overlay {
     background-color: #131313;
+    color: #fff;
+    font-size: 12px;
+    line-height: 20px;
+}
+.statusbar-overlay .fa-circle-o {
+    padding-left: 4px;
+    height: 12px;
+    font-size: 8px;
+}
+.statusbar-overlay .fa-circle {
+    padding-left: 2px;
+    height: 12px;
+    font-size: 8px;
+}
+.statusbar-overlay .fa-plug {
+    padding-right: 4px;
+}
+.statusbar-overlay .fa-gamepad {
+    padding-right: 2px;
+}
+.statusbar-overlay .fa-fire {
+    padding-right: 2px;
 }
 input[type="search"] {
     background-color: #000 !important;
@@ -37,6 +59,7 @@ input[type="search"] {
 }
 .panel-left .list-block a {
     color: #fff;
+    text-shadow: 1px 1px #000;
 }
 .login-box {
     position: fixed;
@@ -253,19 +276,16 @@ input[type="search"] {
     -webkit-transform: translate3d(0,60%,15px);
     transform: translate3d(0,60%,15px);
 }
-
-
 .searchbar-found.list-block .item-text {
     height:85px;
     -webkit-line-clamp: 4;
 }
-
-
 .page[data-page="live"] .content-block {
     margin: 15px 0;
 }
 .page[data-page="live"] .row .col-50 {
     border: 1px solid #888;
+    height: 102px;
     margin-bottom: 15px;
     background-color: #fff;
     border-radius: 15px;

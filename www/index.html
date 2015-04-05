@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
     <title>Framework7 Playground Prototype</title>
     <link rel="stylesheet" href="lib/framework7/dist/css/framework7.css">
     <link rel="stylesheet" href="lib/framework7/dist/css/framework7.themes.css">
@@ -14,8 +15,14 @@
 
     <link rel="stylesheet" href="css/index.css">
   </head>
-  <body class="theme-red layout-dark">
-    <div class="statusbar-overlay"></div>
+  <body class="theme-orange layout-dark">
+    <div class="statusbar-overlay">
+        <span style="display: inline-block; width: 100%; text-align:center">
+            <span style="float: right"><i class="fa fa-gamepad"></i> <i class="fa fa-fire"></i> 22% <i class="fa fa-plug"></i></span>
+            <span style="float: left"><i class="fa fa-circle-o"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i> RDG</span>
+            <span>5:55 PM</span>
+        </span>
+    </div>
     <div class="panel-overlay"></div>
     <div class="panel panel-left panel-reveal">
 
@@ -79,57 +86,6 @@
       </div>
     </div>
 
-    <div class="login-screen">
-      <div class="view">
-        <div class="page" data-page="login">
-          <div class="page-content login-screen-content">
-            <div class="white-box" style="z-index:99;">
-              <div class="login-screen-title">Framework7</div>
-              <form>
-                <div class="list-block">
-                  <ul>
-                    <li class="item-content">
-                      <div class="item-inner">
-                        <div class="item-input">
-                          <input type="text" name="username" placeholder="Your username" style="text-align:center">
-                        </div>
-                      </div>
-                    </li>
-                    <li class="item-content">
-                      <div class="item-inner">
-                        <div class="item-input">
-                          <input type="password" name="password" placeholder="Your password" style="text-align:center">
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-                <div class="list-block">
-                  <ul>
-                    <li><a href="search.html" class="item-link list-button close-login-screen">Sign In</a></li>
-                  </ul>
-                </div>
-              </form>
-            </div>
-            <div>
-              <br><br>
-              <a href="#" class="close-login-screen white-box" style="top:60%;">Cancel</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="popover popover-about">
-      <div class="popover-angle"></div>
-      <div class="popover-inner">
-        <div class="content-block">
-          <p>About</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac diam ac quam euismod porta vel a nunc. Quisque sodales scelerisque est, at porta justo cursus ac.</p>
-        </div>
-      </div>
-    </div>
-
     <!-- Links popover -->
     <div class="popover genres-links">
       <div class="popover-angle"></div>
@@ -168,10 +124,9 @@
       </div>
     </div>
 
-    <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="lib/framework7/dist/js/framework7.js"></script>
     <script type="text/javascript" src="lib/framework7-3d-panels/dist/framework7.3dpanels.js"></script>
-    <script type="text/javascript" src="lib/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="lib/jquery/dist/jquery.js"></script>
     <script type="text/javascript" src="lib/isotope/dist/isotope.pkgd.js"></script>
     <script type="text/javascript" src="lib/imagesloaded/imagesloaded.pkgd.min.js"></script>
     <script type="text/javascript" src="lib/requirejs/require.js" data-main="js/app"></script>
